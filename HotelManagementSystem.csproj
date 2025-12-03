@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>HotelManagementSystem</RootNamespace>
+    <AssemblyName>HotelManagementSystem</AssemblyName>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Основные зависимости для работы с БД -->
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+
+    <!-- Библиотека для хеширования паролей -->
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+
+    <!-- Опционально: Entity Framework Core (если захотите использовать вместо Dapper) -->
+    <!-- <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.25" /> -->
+
+    <!-- Dependency Injection (опционально, вместо ServiceLocator) -->
+    <!-- <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" /> -->
+  </ItemGroup>
+
+</Project>
