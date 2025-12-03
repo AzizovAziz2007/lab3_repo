@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y3sDjH3WgjQ=",
+  "dgSpecHash": "syd20TbvZKs=",
   "success": true,
-  "projectFilePath": "E:\\ТРПО Лаб2\\HotelManagementSystem_Source\\HotelManagementSystem\\HotelManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\Computer\\lab3_repo\\HotelManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Computer\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Computer\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
@@ -25,9 +25,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "У пакета \"System.Data.SqlClient\" 4.8.5 есть известная уязвимость https://github.com/advisories/GHSA-98g6-xh36-x2p7 (уровень серьезности: высокий)",
-      "projectPath": "E:\\ТРПО Лаб2\\HotelManagementSystem_Source\\HotelManagementSystem\\HotelManagementSystem.csproj",
+      "projectPath": "C:\\Users\\Computer\\lab3_repo\\HotelManagementSystem.csproj",
       "warningLevel": 1,
-      "filePath": "E:\\ТРПО Лаб2\\HotelManagementSystem_Source\\HotelManagementSystem\\HotelManagementSystem.csproj",
+      "filePath": "C:\\Users\\Computer\\lab3_repo\\HotelManagementSystem.csproj",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
         "net6.0-windows7.0"

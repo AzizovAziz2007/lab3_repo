@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace HotelManagementSystem.Models
 {
+    //Содержит личные данные клиента, статус (Regular/VIP/Blacklisted), размер скидки по программе лояльности.
     public enum ClientStatus
     {
         Regular,
