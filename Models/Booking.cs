@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace HotelManagementSystem.Models
 {
+    //Центральная сущность системы. Связывает клиента и номер, содержит даты заезда/выезда, статус бронирования, финансовую информацию.
     public enum BookingStatus
     {
         Pending,

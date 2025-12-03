@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Computer\\lab3_repo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|c:\\users\\computer\\lab3_repo\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|c:\\users\\computer\\lab3_repo\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,19 +19,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\Computer\\lab3_repo\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\Computer\\lab3_repo\\Models\\Booking.cs",
-              "RelativeToolTip": "Models\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T14:24:05.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\Computer\\lab3_repo\\Models\\Client.cs",
               "RelativeDocumentMoniker": "Models\\Client.cs",
