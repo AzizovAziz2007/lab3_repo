@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Computer\\lab3_repo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|c:\\users\\computer\\lab3_repo\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|c:\\users\\computer\\lab3_repo\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|c:\\users\\computer\\lab3_repo\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7A05BE1-90B1-6BC3-D59B-A254274F14FB}|HotelManagementSystem.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\Computer\\lab3_repo\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "Models\\Booking.cs",
@@ -35,13 +35,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\Computer\\lab3_repo\\Models\\Client.cs",
               "RelativeDocumentMoniker": "Models\\Client.cs",
               "ToolTip": "C:\\Users\\Computer\\lab3_repo\\Models\\Client.cs",
               "RelativeToolTip": "Models\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T14:21:37.772Z",
               "EditorCaption": ""

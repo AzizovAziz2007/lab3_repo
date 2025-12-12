@@ -36,5 +36,24 @@ namespace HotelManagementSystem.Models
             Services = new List<AdditionalService>();
             BookingDate = DateTime.Now;
         }
+
+        public decimal CalculateCancellationFee()
+        {
+            if (IsLateCancellation())
+            {
+                return IsPremiumRoom() ? TotalCost : TotalCost * 0.5m;
+            }
+            return 0;
+        }
+
+        private bool IsLateCancellation()
+        {
+            return (CheckInDate - DateTime.Now).TotalDays < 2;
+        }
+
+        private bool IsPremiumRoom()
+        {
+            return Room != null && (Room.Category == RoomCategory.Deluxe || Room.Category == RoomCategory.Suite);
+        }
     }
 }
