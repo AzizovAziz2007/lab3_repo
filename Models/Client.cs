@@ -10,20 +10,14 @@ namespace HotelManagementSystem.Models
         Blacklisted
     }
 
-    public class Client
+    // РЕФАКТОРИНГ (Подъем поля / Наследование)
+    public class Client : Person
     {
         public int ClientId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
         public string PassportNumber { get; set; }
-        public string Phone { get; set; }
-        public string Email { get; set; }
-        public DateTime DateOfBirth { get; set; }
         public ClientStatus Status { get; set; }
         public decimal LoyaltyDiscount { get; set; }
         public List<Booking> BookingHistory { get; set; }
-
-        public string FullName => $"{FirstName} {LastName}";
 
         public Client()
         {
