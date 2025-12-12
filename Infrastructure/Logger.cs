@@ -43,15 +43,27 @@ namespace HotelManagementSystem.Infrastructure
             {
                 try
                 {
-                    var logEntry = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] [{level}] {message}";
-                    File.AppendAllText(_logFilePath, logEntry + Environment.NewLine);
+                    // РЕФАКТОРИНГ: Выделение метода
+                    string logEntry = FormatLogEntry(level, message);
+                    WriteToFile(logEntry);
                 }
                 catch (Exception ex)
                 {
-                    // Если не удается записать в лог, выводим в консоль
                     Console.WriteLine($"Failed to write to log: {ex.Message}");
                 }
             }
+        }
+
+        // Выделенный метод 1: Форматирование строки
+        private string FormatLogEntry(string level, string message)
+        {
+            return $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] [{level}] {message}";
+        }
+
+        // Выделенный метод 2: Запись в файл
+        private void WriteToFile(string entry)
+        {
+            File.AppendAllText(_logFilePath, entry + Environment.NewLine);
         }
     }
 }
